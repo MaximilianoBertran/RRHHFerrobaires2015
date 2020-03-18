@@ -1,0 +1,63 @@
+*{
+	font-size: 13px;
+	font-family: "Arial", Helvetica, serif; 
+}
+#certificados {
+
+	text-align: left;
+}
+#certificados span {
+	font-size: 10px;
+}
+#cargo strong {
+	font-size: 16px;
+}
+#lineado {
+	border: 1px solid #000;
+}
+#cargo {
+	font-family: Arial;
+	font-size: 10px;
+	text-align: left;
+}
+.mini {
+	font-size: 7px;
+	float: left;
+}
+.top {
+	width: 32%;
+	font-size: 13px;
+	float: left;
+}
+.titulo {
+	width: 32%;
+	font-size: 18px;
+	float: left;
+	font-weight: bold;
+}
+#cargo input {
+	border: none;
+	font-weight: bold;
+	font-size: 13px;
+}
+#clpie {
+	border-top:2px solid #1490ce;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	bottom: 0%;
+	background-color: White;
+	font-family: Arial;
+}
+#clpie div {
+	font-family: Arial;
+	font-size: 9px;
+}
+#clpie div strong{
+	font-family: Arial;
+	font-size: 10px;
+}
+.texto {
+	font-size: 14px;
+}

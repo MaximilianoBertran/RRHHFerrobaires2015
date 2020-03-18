@@ -1,0 +1,197 @@
+*{
+	font-size: 11px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	color: Black;
+}
+a {
+	color: Black;
+	text-decoration: none;
+}
+div#enlaces_seleccion span {cursor:pointer};
+div.page
+      {
+        page-break-after: always;
+        page-break-inside: avoid;
+      }
+#pie{
+	height:16px;
+	border-top:3px solid #00a8ff;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	bottom: 0%;
+	background-color: White;
+}
+#container{
+	background-color: #FAFAFA;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.botsec, .botsecd{
+	margin-top: 1%;
+	margin-left: 43%;
+	width: 140px;
+	height: 40px;
+	border:1px solid #00a8ff;
+	background-color: #bee8fd;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+.botsec:hover{
+	opacity: 0.8;
+}
+.botsecd{
+	opacity: 0.4;
+}
+.botsec p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.botsecd p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.volver {
+	margin-left: 20%;
+	width: 90px;
+	height: 25px;
+	border:1px solid #a7a7a7;
+	background-color: #dddddd;
+	border-radius: 18px 18px 18px 18px;
+	-moz-border-radius: 18px 18px 18px 18px;
+	-webkit-border-radius: 18px 18px 18px 18px;
+}
+.volver:hover{
+	opacity: 0.8;
+}
+.volver p{
+	font-size: 14px;
+	margin-top: 4px;
+}
+#search {
+	text-align: center;
+	padding-top: 120px;
+}
+.individualcenter {
+	text-align: center;
+}
+#menu{
+	height: 20px;
+	text-align: center;
+	border-bottom: 1px solid #00a8ff;
+}
+#menu li{
+	height: 16px;
+	list-style-type:none;
+	margin-left: 1px;
+	margin-top: 1px;
+	width: 24%;
+	float:left;
+	border:1px solid #00a8ff;
+	background-color: #bee8fd;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+#menu li u{
+	text-transform: uppercase;
+}
+#menu li:hover{
+	opacity: 0.8;
+}
+.informe {
+	width: 19%;
+	height: 85px;
+	float:left;
+}
+.certimenu{
+	width: 23%;
+	height: 120px;
+	float: left;
+}
+#pestania{
+	height: 20px;
+	text-align: center;
+	border-bottom: 1px solid #00a8ff;
+}
+#pestania li{
+	height: 16px;
+	list-style-type:none;
+	margin-left: 1px;
+	margin-top: 1px;
+	width: 14%;
+	float:left;
+	border:1px solid #00a8ff;
+	background-color: #bee8fd;
+	border-radius: 0px 15px 0px 0px;
+	-moz-border-radius: 0px 15px 0px 0px;
+	-webkit-border-radius: 0px 15px 0px 0px;
+}
+#pestania li u{
+	text-transform: uppercase;
+}
+#pestania li:hover{
+	opacity: 0.8;
+}
+#contentlaboral{
+	display: none;
+}
+#contentpersonal{
+	display: none;
+}
+#contentmedico{
+	display: none;
+}
+#contentjudicial{
+	display: none;
+}
+#contentlicencia{
+	display: none;
+}
+#contentimprimir{
+	display: none;
+}
+#contentprevisional{
+	display: none;
+}
+#contentconsulta{
+	display: inline;
+}
+#contentlegajo{
+	display: none;
+}
+#contententradas{
+	display: none;
+}
+#content80{
+	display: none;
+}
+.archivo {
+	width: 50%;
+}
+.personal {
+	text-align: left;
+	width: 60%;
+}
+.cabecera {
+	text-align: center;
+}
+.ficha {
+	text-align: left;
+	width: 75%;
+}
+.rojo {
+	color: Red;
+}
+.imprimir {
+	text-align: center;
+	width: 100%;
+}
